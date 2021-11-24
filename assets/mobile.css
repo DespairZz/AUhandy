@@ -1,0 +1,510 @@
+@media screen and (max-width: 576px) {
+
+    .header { 
+        height: 75px;
+       margin: 0 auto;
+    }
+
+    .ul--social {
+        margin-top: 5px;
+        margin-right: 35px;
+    }
+
+    .justify--info {
+        max-width: 1170px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    
+    .menu--bar {
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 370px;
+    }
+
+    .menu-justify {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .logo-name {
+        height: 70px;
+        background: url(./img/auhandy-shape-logo.png) left no-repeat;
+        padding-left: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ul--menu {
+        display: block;
+        margin-top: 11px;
+    }
+
+    
+
+    .expert--justify--info {
+       flex-direction: column;
+       justify-content: center;
+       max-width: 220px;
+    }
+
+    .expert--bunny {
+        background: url(./img/yellow-bunny-small.png) center center no-repeat;
+        width: 250px;
+        height: 220px;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    .expert--info {
+        text-align: center;
+    }
+      
+    .exp-hand {
+        font-size: 18px;
+    }
+
+    .exp-hand-tag {
+        font-size: 13px;
+    }
+
+    .buttons--exp {
+        flex-direction: column;
+        width: 220px;
+        
+    }
+
+    .btn-orange {
+        background: orange;
+        border-radius: 0%;
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        align-items: center;
+        width: 225px;
+        margin-bottom: 5px ;
+        height: 50px;
+        color: #ffffff;
+    }
+    
+    .btn-render {
+        width: 225px;
+    }
+
+
+.justify--info-experience {
+    max-width: 230px;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.exp-years {
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.number {
+    width: 200px;
+}
+
+.label--bunny {
+    width: 300px;
+    height: 280px;
+}
+
+.why--choose {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 310px;
+
+}
+
+.our--advantage {
+    width: 250px;
+}
+
+.advantage {
+    width: 300px;
+    padding-right: 0px;
+}
+
+.advantage-text {
+
+    padding-left: 5px;
+    margin-right: 5px;
+}
+
+.advantage--name {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.advantage--description {
+
+    font-size: 12px;
+}
+
+.choose--line {
+    display: none;
+}
+
+.bunnysquare {
+    margin-top: 30px;
+    width: 300px;
+    height: 330px;
+}
+
+.squareless {
+   display: none;
+}
+
+.service--line {
+    display: none;
+}
+
+.project--line {
+    display: none;
+}
+
+.location--map {
+    width: 300px;
+    height: 268px;
+}
+
+.feed--quote--bar {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.your--name--text {
+    width: 310px;
+}
+
+.feed--line {
+    display: none;
+    
+}
+
+.our--service-feed {
+    display: none;
+    
+}
+
+.problem-justify {
+    width: 300px; 
+}
+
+.feed--line {
+    display: none;
+}
+
+.btn-form {
+    width: 200px;
+}
+
+.form--decor {
+    justify-content: center;
+}
+
+.feed--quote--bar {
+    text-align: center;
+    width: 300px;
+}
+
+.project--box--cable {
+    width: 315px;
+    background: url(./img/project-cable.png) center center;
+}
+
+.project--box--bear-active {
+    width: 315px;
+}
+
+.project--box--bear {
+    width: 315px;
+}
+
+.project--box--bunny {
+    width: 315px;
+    background: url(./img/project-bunny.png) center center;
+}
+
+.your--name--text {
+    width: 310px;
+}
+
+.sale--code {
+    width: 300px;
+}
+ 
+.problem--text {
+    max-width: 300px;
+    font-size: 26px;
+   
+}
+
+.contact--img {
+    width: 40px;
+    height: 40px;
+  margin-left: 5px;
+}
+
+}
+
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+ 
+
+    .menu--bar {
+        justify-content: center;
+    }
+
+    .ul--menu {
+        display: block;
+        margin-top: 11px;
+    }
+
+    .expert--justify--info {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 220px;
+     }
+ 
+     .expert--bunny {
+         background: url(./img/yellow-bunny-small.png) center center no-repeat;
+         width: 250px;
+         height: 220px;
+         margin-top: 20px;
+         margin-left: -20px;
+     }
+ 
+     .expert--info {
+         text-align: center;
+     }
+       
+     .exp-hand {
+         font-size: 27px;
+     }
+ 
+     .exp-hand-tag {
+         font-size: 17px;
+     }
+ 
+     .buttons--exp {
+         flex-direction: column;
+         width: 220px;
+         
+     }
+
+     .justify--info-experience {
+        max-width: 230px;
+        padding-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .exp-years {
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .number {
+        width: 200px;
+    }
+
+    .squareless {
+        display: none;
+     }
+
+    .service--line {
+        display: none;
+    }
+
+    .project--line {
+        display: none;
+    }
+
+    .problem-justify {
+        width: 320px; 
+    }
+
+    .feed--line {
+        display: none;
+    }
+
+    .form--decor {
+      
+        max-width: 500px;
+    }
+     
+    .feed--quote--bar {
+        text-align: center;
+    }
+
+    .form--decor {
+        justify-content: center;
+    }
+
+    .your--name--text {
+        width: 310px;
+    }
+  }
+
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .menu--bar {
+        justify-content: center;
+    }
+
+    .menu--li {
+      
+        font-size: 13px;
+        line-height: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .expert--bar {
+        height: 270px;
+    }
+
+    .expert--bunny {
+        background: url(./img/yellow-bunny-small.png) center center no-repeat;
+        width: 350px;
+        height: 220px;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    .exp-hand {
+        font-size: 27px;
+    }
+
+    .exp-hand-tag {
+        font-size: 17px;
+    }
+
+    .justify--info-experience {
+        max-width: 230px;
+        padding-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .exp-years {
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .number {
+        width: 200px;
+    }
+
+    .squareless {
+        display: none;
+     }
+
+     .service--line {
+        display: none;
+    }
+
+    .project--line {
+        display: none;
+    }
+
+
+    .menu--project {
+
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .problem-justify {
+        width: 320px; 
+    }
+
+    .feed--line {
+        display: none;
+    }
+
+    .form--decor {
+        justify-content: center;
+    }
+
+  }
+
+  @media screen and (min-width: 993px) and (max-width: 1199px) {
+      
+    .expert--bar {
+        height: 270px;
+    }
+
+    
+    .expert--bunny {
+        background: url(./img/yellow-bunny-small.png) center center no-repeat;
+        width: 350px;
+        height: 220px;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+
+    .justify--info-experience {
+        max-width: 230px;
+        padding-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .exp-years {
+        font-size: 22px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .number {
+        width: 200px;
+    }
+
+    .squareless {
+        display: none;
+    }
+
+     .service--line {
+        display: none;
+    }
+
+    .project--line {
+        display: none;
+    }
+
+    .problem-justify {
+        width: 320px; 
+    }
+
+    .feed--line {
+        display: none;
+    }
+
+    .form--decor {
+        justify-content: center;
+    }
+  }
